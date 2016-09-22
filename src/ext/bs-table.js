@@ -54,6 +54,7 @@
     };
     var rowFilter = function(item, i) {
         var filterType;
+        var filter;
         var ret = true;
         $.each(item, function(field, value) {
             filterType = false;
